@@ -1,0 +1,149 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    margin-top: 2%;
+    background: white;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4%;
+}
+
+.container h1, .container p {
+    color: #614c3b;
+}
+
+.choices {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.choices-container {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    width: fit-content;
+}
+
+.computer-choice-container, .human-choice-container {
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+}
+
+.choices button{
+    background: white;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0px;
+}
+
+.choices button:hover{
+    background: gray;
+    transition: 0.3s;
+}
+
+.choices h2 {
+    background: #614c3b;
+    width: fit-content;
+    padding: 2%;
+}
+
+#rock {
+    color: #fbd165;
+}
+
+#scissors {
+    color: #a9cc8a;
+}
+
+#paper {
+    color: #f4b0bf;
+}
+
+.results {
+    width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.results-container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.computer-choice-container,
+.human-choice-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 5%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.computer-choice-title,
+.human-choice-title,
+.computer-score-title,
+.human-score-title {
+    font-weight: bold;
+    color: #614c3b;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    padding: 2%;
+}
+
+.computer-choice,
+.human-choice {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 2%;
+}
+
+.scores-container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.computer-score-container,
+.human-score-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-width: 150px;
+}
+
+.computer-score,
+.human-score {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #614c3b;
+    margin-top: 0.5rem;
+}
+
+.results-text {
+    margin: 2rem 0;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
